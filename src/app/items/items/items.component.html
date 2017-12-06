@@ -1,0 +1,8 @@
+<app-search></app-search>
+<br>
+<!--TODO:Change with use bootstrap_v4-->
+<mat-grid-list cols="5" rowHeight="7:1">
+  <mat-grid-tile *ngFor="let item of items" ><app-item [item]="item"></app-item></mat-grid-tile>
+</mat-grid-list>
+
+

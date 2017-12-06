@@ -1,0 +1,6 @@
+{{item.name}}
+<i class="fa fa-caret-down" aria-hidden="true" *ngIf="!isOpen" (click)="isOpen=true"></i>
+<i class="fa fa-caret-up" aria-hidden="true" *ngIf="isOpen" (click)="isOpen=false"></i>
+<br>
+<!--<span *ngIf="isOpen">{{item.plaintext}}</span>-->
+<span *ngIf="isOpen">описание</span>
